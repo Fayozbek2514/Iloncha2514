@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+canvas {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+.score {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.controls {
+    margin-top: 10px;
+}
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.restart { background-color: #28a745; color: white; }
+.snake-color { background-color: #007bff; color: white; }
+.bg-color { background-color: #dc3545; color: white; }

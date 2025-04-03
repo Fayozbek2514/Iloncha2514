@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilon O‘yini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ilon O'yini</h1>
+    <p>O'yinni boshqarish: ⬆️ ⬇️ ⬅️ ➡️</p>
+    <p class="score">Hisob: <span id="score">0</span></p>
+    <canvas id="gameCanvas"></canvas>
+
+    <div class="controls">
+        <button class="restart" onclick="resetGame()">🔄 Qayta boshlash</button>
+        <button class="snake-color" onclick="changeSnakeColor()">🌈 Ilon rangi</button>
+        <button class="bg-color" onclick="changeBackgroundColor()">🎨 Fon rangi</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
